@@ -1,0 +1,729 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hallo",
+        "hai",
+        "halo",
+        "hei",
+        "hi",
+        "hy",
+        "pagi",
+        "morning",
+        "siang",
+        "afternoon",
+        "sore",
+        "malam",
+        "bro",
+        "sis",
+        "kawan"
+      ],
+      "responses": [
+	      "Hai! Lanesbot di sini. Mau tau informasi tentang apa nih?",
+        "Halo! Saya Lanesbot, salam kenal ya! Mau tau tentang UNNES, kan?",
+        "Helo! Ini Lanesbot. Lagi kepo tentang apa?"
+      ]
+    },
+    {
+      "tag": "lanesbot",
+      "patterns": [
+        "Apa itu Lanesbot?",
+        "lanesbot",
+        "Siapa Lanesbot?", 
+        "Lanesbot?"
+      ],
+      "responses": [
+        "Lanesbot adalah aplikasi chatbot informasi tentang Akademik Universitas Negeri Semarang. Beberapa informasi akan teman-teman dapatkan dengan menanyakannya kepada Lanesbot. Informasinya yang dimulai dari sejarah, visi misi, PMB, dan informasi lainnya yang tentunya dapat teman-teman dapatkan.",
+        "Lanesbot itu adalah teman informasi kamu tentang Akademik Universitas Negeri Semarang!"
+      ]
+    },
+    {
+      "tag": "pencipta_lanesbot",
+      "patterns": [
+	      "Siapa pembuatmu?",
+        "Lanesbot, yang buat kamu siapa sih?",
+        "Siapa penciptamu, Lanesbot?"
+      ],
+      "responses": [
+        "Lanesbot diciptakan oleh lima mahasiswa lintas Universitas dari program Kampus Merdeka yang memiliki ide kreatif dan semangat team yang luar biasa walaupun banyak rintangan dan drama tapi mereka berhasil menciptakan Saya saat ini",
+        "Pembuat Lanesbot dari kalangan mahasiswa dan mahasiswi lho!",
+        "Penciptaku berasal dari seorang mahasiswa yang kreatif, sehingga saya bisa aktif saat ini!"
+      ]
+    },
+    {
+      "tag": "sejarah_unnes",
+      "patterns": [
+	      "Sejarah",
+        "Sejarah unnes",
+        "apa sejarah dari unnes",
+        "sejarah unnes itu apa"
+      ],
+      "responses": [
+        "Awal berdirinya Unnes dimulai dengan didirikannya Lembaga-lembaga pendidikan guru oleh pemerintah Kolonial Belanda yang dikenal dengan Kursus B-I dan Kursus B-II dan diselenggarakan hingga tahun 1960. Setelah itu, kedua lembaga tersebut diintegrasikan menjadi Fakultas Keguruan dan Ilmu Pengetahuan (FIKIP) di Universitas Diponegoro. </br></br> Pada tahun 1963 FKIP Undip kemudian ditetapkan menjadi IKIP Yogyakarta cabang Semarang, yang mana pada saat itu hanya terdapat 4 IKIP yakni IKIP Jakarta, Malang, Bandung, dan Yogyakarta. Seiring berjalannya waktu IKIP Yogyakarta cabang Semarang mengalami perkembangan yang cukup pesat sehingga membuat Menteri PTIP menerbitkan Keputusan Menteri untuk menetapkan IKIP Yogyakarta cabang Semarang menjadi IKIP Semarang. </br></br> Setelah itu, diterbitkannya Keputusan Presiden No 124 tahun 1994 mengenai perubahan IKIP Bandung, Medan, dan Semarang menjadi Universitas, akhirnya membuat IKIP Semarang berubah nama menjadi Universitas Negeri Semarang yang biasa disingkat Unnes."
+      ]
+    },
+    {
+      "tag": "mars_unnes",
+      "patterns": [
+	      "mars",
+        "mars unnes",
+        "lagu mars unnes apa",
+        "apa lagu dari mars unnes",
+        "lirik lagu dari mars unnes"
+      ],
+      "responses": [
+        "Mars Universitas Negeri Semarang </br>Lagu: Kelly Puspita </br>Gubahan : Fathur Rokhman </br>Lirik: Satmoko </br>Url Video : https://youtu.be/oXmlC-dhmRM </br></br>Lirik :</br>Universitas Negeri Semarang </br>Menjulang setinggi angkasa </br>Membangun insan yang akademis </br>Berkarakter serta berdayaguna </br>Berlandaskan nilai pancasila </br>Undang-undang dasar empat lima </br>Pilar tri dharma perguruan tinggi </br>Sebagai dasar pengabdiannya </br>Majulah Universitas Negeri Semarang </br>Di tengah derap pembangunan </br>Mendidik putra bangsa menjadi cendekia </br>Untuk Indonesia tercinta </br>Berwawasan nilai konservasi </br>Bereputasi internasional </br>Melimpah berkah rahmat-Nya </br>Semoga UNNES selalu jaya"
+      ]
+    },
+    {
+      "tag": "lambang_unnes",
+      "patterns": [
+	      "arti lambang unnes",
+        "lambang",
+        "logo",
+        "Lambang unnes itu apa",
+        "Lambang unnes",
+        "Logo unnes"
+      ],
+      "responses": [
+        "Arti dari Lambang UNNES : </br></br> Elemen kuncup bunga teratai berhelai tiga berwarna merah dan putih, menandakan semangat UNNES dalam berinovasi untuk mengembangkan perguruan tinggi bertaraf internasional berlandaskan Pancasila, UUD 1945, dan Tri Dharma Perguruan Tinggi. </br>Sayap mengepak berwarna kuning emas berhelai delapan menunjukkan UNNES yang dinamis dengan berbasis pada delapan nilai konservasi. Delapan nilai konservasi yaitu: inspiratif, humanis, kepedulian, inovatif, kreatif , sportif, kejujuran, dan keadilan. </br>Siluet Tugu Muda yang diapit oleh dua kepakan sayap melambangkan semangat perjuangan dan identitas UNNES yang berasal dari Semarang. Lambang tersebut bermakna, UNNES akan tumbuh dan berkembang baik secara lokal, nasional, maupun internasional tanpa meninggalkan konteks sosialnya. </br>Tulisan UNNES dan Universitas Negeri Semarang berwarna biru melambangkan kemuliaan sebagai rumah ilmu pengembang peradaban unggul yang menghadirkan kebermanfaatan bagi semesta."
+      ]
+    },
+    {
+      "tag": "visimisi_unnes",
+      "patterns": [
+	      "visi unnes",
+        "Apa visi unnes?",
+        "misi unnes",
+        "Apa misi unnes",
+        "visi misi",
+        "visi misi unnes"
+      ],
+      "responses": [
+        "Visi UNNES adalah menjadi universitas berwawasan konservasi dan bereputasi Internasional. </br></br> Terdapat 4 Misi UNNES, yaitu sebagai berikut : </br>a. Menyelenggarakan dan mengembangkan pendidikan dalam program kependidikan dan non-kependidikan yang unggul berwawasan konservasi dan bereputasi internasional. </br>b. Mengembangkan dan menciptakan ilmu pengetahuan, teknologi, seni, budaya, peradaban dan olahraga yang berwawasan konservasi dan bereputasi internasional. </br>c. Menyebarluaskan ilmu pengetahuan, teknologi, seni, budaya dan olahraga yang berwawasan konservasi dan bereputasi internasional; dan </br>d. Membangun dan mengembangkan kerjasama Institusi dalam menunjang penguatan kelembagaan yang bereputasi internasional."
+      ]
+    },
+    {
+      "tag": "tujuan_unnes",
+      "patterns": [
+	      "tujuan",
+        "Apa tujuan unnes?",
+        "tujuan unnes",
+        "tujuan dari unnes itu apa saja"
+      ],
+      "responses": [
+        "Tujuan UNNES adalah : </br></br> a. mewujudkan kebudayaan unggul dalam pendididikan melalui upaya pelestarian dan pengembangan nilai pengetahuan dan keyakinan berwawasan konservasi. </br>b. mewujudkan pranata pendidikan dan tata kelola yang efektif, kreatif, serta produktif yang berwawasan konservasi dan bereputasi internasional; </br>c. menghasilkan pendidik, tenaga kependidikan, akademisi dan profesional yang memiliki kompetensi unggul dalam bidang ilmu pengetahuan, teknologi, seni, dan olahraga berwawasan konservasi."
+      ]
+    },
+    {
+      "tag": "jalur_unnes",
+      "patterns": [
+        "Ada berapa jalur masuk UNNES?",
+        "jalur masuk unnes",
+        "masuk unnes",
+        "Bagaimana cara masuk UNNES?",
+        "Ada berapa jalur untuk masuk UNNES?",
+        "Berapa jalur masuk UNNES?",
+        "Jalur masuk UNNES?",
+        "Cara masuk UNNES?",
+        "Apa saja jalur masuk UNNES?"
+      ],
+      "responses": [
+        "Untuk masuk UNNES, Anda dapat melalui 3 jalur yaitu SNMPTN, SBMPTN, dan Jalur Mandiri"
+      ]
+    },
+    {
+      "tag": "snmptn_unnes",
+      "patterns": [
+        "Apa itu SNMPTN?",
+        "snm",
+        "Apa yang dimaksud dengan SNMPTN?",
+        "SNMPTN adalah?",
+        "SNMPTN"
+      ],
+      "responses": [
+        "SNMPTN adalah jalur masuk Universitas yang dilakukan berdasarkan hasil penelusuran prestasi akademik dengan menggunakan rapor dan portofolio akademik. </br>Rapor yang digunakan adalah semester satu sampai dengan semester lima bagi SMA/SMK/MA. Siswa yang berhak mengikuti seleksi adalah siswa yang memiliki Nomor Induk Siswa Nasional (NISN), memiliki prestasi unggul, dan rekam jejak prestasi akademik di PDSS. Siswa yang akan mendaftar SNMPTN wajib membaca informasi pada laman PTN pilihan tentang ketentuan terkait dengan penerimaan mahasiswa baru di PTN tersebut."
+      ]
+    },
+    {
+      "tag": "pdss_unnes",
+      "patterns": [
+        "Apa itu PDSS yang ada dalam SNMPTN?",
+        "Apa itu PDSS pada SNMPTN?",
+        "PDSS",
+        "Apa itu PDSS?",
+        "PDSS adalah?"
+      ],
+      "responses": [
+        "PDSS merupakan basis data yang berisikan rekam jejak kinerja sekolah dan nilai rapor siswa yang eligible mendaftar. PDSS mengakomodasi Kurikulum Nasional 2006 KTSP dan Kurikulum 2013 (Sistem Paket dan SKS). </br>Sekolah yang tidak menggunakan kurikulum nasional tidak diperbolehkan mendaftar PDSS. Untuk tahun ajaran dan tingkat yang sama, PDSS mengakomodasi perbedaan kurikulum antara semester ganjil dan genap. Pengisian PDSS dilakukan oleh sekolah dan kebenaran data yang diisikan menjadi tanggung jawab Kepala Sekolah."
+      ]
+    },
+    {
+      "tag": "syarat_snmptn",
+      "patterns": [
+        "Apa saja persyaratan sekolah yang siswanya berhak mengikuti SNMPTN?",
+        "Persyaratan mengikuti SNMPTN",
+        "Persyaratan SNMPTN",
+        "persyaratan snm",
+        "Persyaratn yang berhak mengikuti SNMPTN"
+      ],
+      "responses": [
+        "Adapun persyaratan sekolah yang siswanya berhak mengikuti SNMPTN yaitu : </br></br>1) SMA/MA/SMK yang mempunyai NPSN. </br></br>2) Ketentuan Akreditasi: </br>Akreditasi A: 40 % terbaik di sekolahnya </br>Akreditasi B: 25 % terbaik di sekolahnya </br>Akreditasi C dan lainnya: 5% terbaik di sekolahnya. </br>3) Mengisi Pangkalan Data Sekolah dan Siswa (PDSS). Data siswa yang diisikan hanya yang eligible sesuai dengan ketentuan."
+      ]
+    },
+    {
+      "tag": "prodi_snmptn",
+      "patterns": [
+        "Bagaimana ketentuan pemilihan program studi pada jalur SNMPTN?",
+        "prodi",
+        "Ketentuan memilih prodi jalur SNMPTN?",
+        "Ketentuan jurusan jalur SNMPTM?"
+      ],
+      "responses": [
+        "1) Setiap siswa dapat memilih dua program studi dari satu PTN atau dua PTN. </br>2) Jika memilih dua program studi, salah satu harus berada di PTN pada provinsi yang sama dengan SMA/MA/SMK asalnya. Jika memilih satu program studi, dapat memilih PTN yang berada di provinsi mana pun. </br>3) Disarankan tidak lintas minat tergantung ketentuan PTN yang dituju."
+      ]
+    },
+    {
+      "tag": "peringkat_sekolah",
+      "patterns": [
+        "Bagaimana ketentuan pemeringkatan siswa di sekolah asal?",
+        "Ketentuan pemeringkatan siswa di sekolah asal?",
+        "Pemeringkatan sekolah asal?"	
+      ],
+      "responses": [
+        "1) Pemeringkatan siswa dilakukan oleh sekolah yang pada dasarnya memperhitungkan nilai mata pelajaran sebagai berikut. Jurusan IPA: Matematika, Bahasa Indonesia, Bahasa Inggris, Kimia, Fisika, dan Biologi. Jurusan IPS: Matematika, Bahasa Indonesia, Bahasa Inggris, Sosiologi, Ekonomi, dan Geografi. Jurusan Bahasa: Matematika, Bahasa Indonesia, Bahasa Inggris, Sastra Indonesia, Antropologi, dan salah satu Bahasa Asing. SMK: Matematika, Bahasa Indonesia, Bahasa Inggris, dan Kompetensi Keahlian. </br>2) Sekolah dapat menambahkan kriteria lain berupa prestasi akademik dalam menentukan peringkat siswa bila ada nilai yang sama. </br>3) Jumlah siswa yang masuk dalam pemeringkatan sesuai dengan ketentuan kuota akreditasi sekolah."
+      ]
+    },
+    {
+      "tag": "sbmptn_unnes",
+      "patterns": [
+        "Apa itu SBMPTN",
+        "Apa yang dimaksud dengan SBMPTN?",
+        "SBMPTN adalah",
+        "SBMPTN"
+      ],
+      "responses": [
+        "SBMPTN diselenggarakan sejak tahun 2019 yang dilakukan dengan menggunakan hasil UTBK dan/atau kriteria lain yang ditetapkan bersama oleh PTN. SBMPTN merupakan pola seleksi nasional berdasarkan hasil tes tertulis/ujian keterampilan. </br>SBMPTN 2022 adalah seleksi yang dilakukan oleh PTN di lingkungan Kementerian Pendidikan dan Kebudayaan (Kemendikbud) dan Kementerian Agama secara bersama di bawah koordinasi LTMPT (Lembaga Tes Masuk Perguruan Tinggi) dengan seleksi berdasarkan hasil UTBK (Ujian Tulis Berbasis Komputer) dan portofolio calon mahasiswa. </br>Sejak tahun 2019, SBMPTN merupakan seleksi penerimaan mahasiswa baru dengan menggunakan hasil UTBK saja atau hasil UTBK dan kriteria lain yang ditetapkan bersama oleh PTN. Peserta diperbolehkan mengikuti UTBK 2022 sebanyak satu kali."
+      ]
+    },
+    {
+      "tag": "syarat_utbk",
+      "patterns": [
+        "Apa saja persyaratan peserta UTBK?",
+        "Syarat UTBK",
+        "utbk",
+        "Persyaratan UTBK",
+        "Persyaratan peserta UTBK"
+      ],
+      "responses": [
+        "1) Memiliki AKUN LTMPT </br>2) Siswa SMA/MA/SMK Kelas 12 pada tahun 2022 atau peserta didik Paket C tahun 2021 dengan umur maksimal 25 tahun (per 1 Juli 2022) </br>3) Lulusan SMA/MA/SMK/Sederajat tahun 2020 dan 2021 atau lulusan Paket C tahun 2020 dan 2021 dengan umur maksimal 25 tahun </br>4) Syarat pilihan prodi: Peserta yang akan memilih prodi Saintek, maka mengikuti TPS dan TKA Saintek; Peserta yang akan memilih prodi Soshum, maka mengikuti TPS dan TKA Soshum; dan Peserta yang akan memilih prodi campuran (Saintek dan Soshum), maka mengikuti TPS, TKA Saintek dan TKA Soshum </br>5) Hasil UTBK 2022 hanya berlaku untuk penerimaan tahun 2022 </br>6) Membayar biaya UTBK."
+      ]
+    },
+    {
+      "tag": "materi_utbk",
+      "patterns": [
+        "Apa saja materi UTBK",
+	      "Materi UTBK"
+      ],
+      "responses": [
+        "Materi UTBK itu ada 3 yaitu Tes Potensi Skolastik (TPS), Tes Kemampuan Bahasa Inggris, dan Tes Kemampuan Akademik."
+      ]
+    },
+    {
+      "tag": "tps_utbk",
+      "patterns": [
+        "Apa itu Tes Potensi Skolastik (TPS)?",
+        "Apa itu TPS",
+        "TPS adalah",
+        "TPS",
+        "Tes Potensi Skolastik"
+      ],
+      "responses": [
+        "TPS merupakan tes untuk mengukur Kemampuan Kognitif yang dianggap penting untuk keberhasilan di sekolah formal, khususnya pendidikan tinggi. Dalam TPS yang akan diuji adalah Kemampuan Penalaran Umum, Kemampuan Kuantitatif, Pengetahuan dan Pemahaman Umum, serta Kemampuan Memahami Bacaan dan Menulis. </br>Kemampuan kuantitatif akan mencakup Pengetahuan dan Penguasaan Matematika Dasar. Pada TPS, sebagian soal disajikan dalam Bahasa."
+      ]
+    },
+    {
+      "tag": "tkbi_utbk",
+      "patterns": [
+        "Apa itu Tes Kemampuan Bahasa Inggris?",
+        "Apa itu TKBI",
+        "TKBI adalah",
+        "TKBI",
+        "Tes Kemampuan Bahasa Inggris?"
+      ],
+      "responses": [
+        "Tes Kemampuan Bahasa Inggris merupakan tes untuk mengukur kemampuan Bahasa inggris yang diperlukan untuk mendukung pembelajaran di perguruan tinggi."
+      ]
+    },
+    {
+      "tag": "tka_utbk",
+      "patterns": [
+        "Apa itu Tes Kemampuan Akademik?",
+        "Apa itu TKA?",
+        "TKA adalah",
+        "TKA",
+        "Tes Kemampuan Akademik?"
+      ],
+      "responses": [
+        "Tes Kemampuan Akademik merupakan tes untuk mengukur pengetahuan dan pemahaman keilmuan yang diajarkan di sekolah dan diperlukan untuk seseorang dapat berhasil dalam menempuh pendidikan tinggi. TKA juga mengukur kemampuan kognitif yang terkait langsung dengan konten mata pelajaran yang dipelajari di sekolah. Penekanan tes adalah pada Higher Order Thinking Skills (HOTS)."
+      ]
+    },
+    {
+      "tag": "ujian_utbk",
+      "patterns": [
+        "Bagaimana kelompok ujian UTBK",
+        "Kelompok UTBK",
+        "Ujian UTBK"
+      ],
+      "responses": [
+        "Kelompok ujian UTBK dibagi menjadi tiga yaitu : </br></br>1) Kelompok Ujian Sains dan Teknologi (SAINTEK) yang terdiri dari Materi ujian TPS dan TKA Saintek (Matematika, Fisika, Kimia, dan Biologi) dengan alokasi waktu 195 menit </br>2) Kelompok Ujian Sosial dan Humaniora (SOSHUM) yang terdiri dari Materi ujian TPS dan TKA Soshum (Geografi, Sejarah, Sosiologi, dan Ekonomi) dengan alokasi waktu 195 menit </br>3) Kelompok Ujian SAINTEK dan SOSHUM (Campuran) yang terdiri dari Materi ujian TPS, dan TKA Saintek, dan TKA Soshum dengan alokasi waktu 285 menit."
+      ]
+    },
+    {
+      "tag": "daftar_utbk",
+      "patterns": [
+        "Bagaimana tahapan pendaftaran UTBK?",
+	      "Tahapan pendaftaran UTBK?"
+      ],
+      "responses": [
+        "1) REGISTRASI AKUN LTMPT bagi semua calon pendaftar UTBK – SBMPTN dengan menggunakan NISN, NPSN, dan tanggal lahir di laman LTMPT </br>2) Melakukan login menggunakan username/email dan password ke laman https://portal.ltmpt.ac.id </br>3) Memilih menu Verifikasi dan Validasi Data Siswa dengan mengisi biodata, unggah pas foto berwarna terbaru dan verifikasi biodata </br>4) Memilih menu Pendaftaran UTBK Memilih lokasi Pusat UTBK PTN, jenis ujian dan sesi ujian untuk mendapatkan slip pembayaran. </br>) Membayar di Bank (Bank Mandiri, Bank BNI, atau Bank BTN) menggunakan slip pembayaran harus dilakukan paling lambat 1 x 24 jam </br>6) Melakukan login kembali ke laman https://portal.ltmpt.ac.id lalu memilih menu Pendaftaran UTBK untuk mencetak kartu peserta UTBK </br>7) Mengikuti UTBK sesuai dengan hari, tanggal, sesi, dan lokasi Pusat UTBK PTN yang dipilih."
+      ]
+    },
+    {
+      "tag": "seleksi_mandiri",
+      "patterns": [
+        "Apa itu Seleksi Mandiri yang diadakan oleh Universitas Negeri Semarang?",
+        "Apa itu Seleksi Mandiri yang diadakan oleh UNNES",
+        "Seleksi Mandiri di UNNES",
+        "seleksi mandiri unnes",
+        "seleksi mandiri",
+        "Seleksi Mandiri yang diadakan oleh UNNES"
+      ],
+      "responses": [
+        "Seleksi Mandiri Universitas Negeri Semarang (SM-Unnes) adalah seleksi penerimaan mahasiswa baru jenjang D3, S1, S2, S3, dan Profesi yang diselenggarakan secara mandiri oleh Universitas Negeri Semarang dalam bentuk ujian tertulis/daring dan/atau ujian keterampilan seni/olahraga. </br>Pendaftaran dilaksanakan secara bertahap sesuai dengan jalur penerimaan. Pendaftaran Seleksi Mandiri dilakukan secara online sesuai jalur yang dibuka."
+      ]
+    },
+    {
+      "tag": "fakultas_lanesbot",
+      "patterns": [
+        "Apa saja fakultas di Universitas Negeri Semarang?",
+        "Apa saja fakultas di UNNES?",
+        "Fakultas di UNNES",
+        "fakultas",
+        "fakultas unnes"
+      ],
+      "responses": [
+        "Saat ini, UNNES memiliki 8 Fakultas dan 1 Fakultas Pascasarjana, yaitu : </br>1) Fakultas Ilmu Pendidikan (FIP) </br>2) Fakultas Teknik (FT) </br>3) Fakultas Bahasa & Seni (FBS) </br>4) Fakultas Ilmu Keolahragaan (FIK) </br>5) Fakultas Ilmu Sosial (FIS) </br>6) Fakultas Ekonomi (FE) </br>7) Fakultas Matematika dan IPA (FMIPA) </br>8) Fakultas Hukum (FH) </br>9) Pascasarjana."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Dah",
+        "Dadah",
+        "Bye",
+        "Byee",
+        "Good bye",
+        "Selamat tinggal",
+        "Sampai jumpa",
+        "Bai",
+        "See you"
+      ],
+      "responses": [
+        "Bye!",
+        "Dadahh!",
+        "Good bye!",
+        "Dahh, semoga harimu menyenangkan yaa!",
+        "Sampai jumpa lagi!",
+        "See u! Senang bisa membantu"
+      ]
+    },
+    {
+      "tag": "terimakasih",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Terima kasih",
+        "Makasih",
+        "Terima kasih banyak"
+      ],
+      "responses": [
+        "Dengan senang hati :)",
+        "Sama-sama yaa"
+      ]
+    },
+    {
+      "tag": "fip_lanesbot",
+      "patterns": [
+        "Apa saja jurusan di Fakultas Ilmu Pendidikan?",
+        "Apa saja jurusan di FIP?",
+        "Jurusan di FIP?",
+        "Jurusan di Fakultas Ilmu Pendidikan?",
+        "Apa saja program studi di Fakultas Ilmu Pendidikan?",
+        "Apa saja program studi di FIP?",
+        "Program studi di FIP?",
+        "Program studi di Fakultas Ilmu Pendidikan?",
+        "jurusan",
+        "program studi",
+        "prodi",
+        "prodi unnes"
+      ],
+      "responses": [
+        "Fakultas Ilmu Pendidikan (FIP) menaungi enam jurusan berjenjang S1. Jurusan tersebut adalah </br>1) Pendidikan Luar Sekolah (S1) </br>2) Teknologi Pendidikan (S1) </br>3) Pendidikan Guru PAUD (S1) </br>4) Pendidikan Guru Sekolah Dasar (S1) </br>5) Psikologi (S1) </br>6) Bimbingan dan Konseling (S1)."
+      ]
+    },
+    {
+      "tag": "ft_lanesbot",
+      "patterns": [
+        "Apa saja jurusan di Fakultas Teknik?",
+        "Apa saja jurusan di FT",
+        "Jurusan di FT",
+        "ft",
+        "fakultas teknik",
+        "Jurusan di Fakultas Teknik",
+        "Apa saja program studi di Fakultas Teknik?",
+        "Apa saja program studi di FT?",
+        "Program studi di FT",
+        "Program studi di Fakultas Teknik"
+      ],
+      "responses": [
+        "Fakultas Teknik (FT) menaungi 14 jurusan, baik di rumpun ilmu kependidikan maupun nonkependidikan. Semua jurusan tersebut merupakan Program S1. Jurusan tersebut adalah : </br>1) Pendidikan Kesejahteraan Keluarga (S1) </br>2) Pendidikan Tata Boga (S1) </br>3) Pendidikan Teknik Otomotif (S1) </br>4) Teknik Kimia (S1) </br>5) Pendidikan Tata Kecantikan (S1) </br>6) Pendidikan Tata Busana (S1) </br>7) Teknik Elektro (S1) </br>8) Pendidikan Teknik Informatika dan Komputer (S1) </br>9) Pendidikan Teknik Elektro (S1) </br>10) Teknik Mesin (S1) </br>11) Pendidikan Teknik Mesin (S1) </br>12) Teknik Sipil (S1) </br>13) Teknik Arsitektur (S1) </br>14) Pendidikan Teknik Bangunan (S1)."
+      ]
+    },
+    {
+      "tag": "fbs_lanesbot",
+      "patterns": [
+        "Apa saja jurusan di Fakultas Bahasa & Seni?",
+        "Fakultas Bahasa & Seni",
+        "Apa saja jurusan di FBS?",
+        "Jurusan di FBS",
+        "fbs",
+        "Jurusan di Fakultas Bahasa & Seni",
+        "Apa saja program studi di Fakultas Bahasa & Seni?",
+        "Apa saja program studi di FBS?",
+        "Program studi di FBS",
+        "Program studi di Fakultas Bahasa & Seni"
+      ],
+      "responses": [
+        "Fakultas Bahasa dan Seni (FBS) menaungi 16 jurusan, di mana satu di antaranya berjenjang D3 dan 15 program studi lainnya berjenjang S1. Jurusan tersebut adalah : </br>1) Pendidikan Bahasa Mandarin (S1) </br>2) Pendidikan Bahasa Inggris (S1) </br>3) Sastra Inggris (S1) </br>4) Pendidikan Seni Musik (S1) </br>5) Pendidikan Seni Tari (S1) </br>6) Desain Komunikasi Visual (D3) </br>7) Seni Rupa (S1) </br>8) Pendidikan Seni Rupa (S1) </br>9) Pendidikan Bahasa Jepang (S1) </br>10) Sastra Prancis (S1) </br>11) Pendidikan Bahasa Arab (S1) </br>12) Pendidikan Bahasa Prancis (S1) </br>13) Sastra Jawa (S1) </br>14) Pendidikan Bahasa Jawa (S1) </br>15) Sastra Indonesia (S1) </br>16) Pendidikan Bahasa dan Sastra Indonesia (S1)."
+      ]
+    },
+    {
+      "tag": "fik_lanesbot",
+      "patterns": [
+        "Apa saja jurusan di Fakultas Ilmu Keolahragaan?",
+        "Apa saja jurusan di FIK?",
+        "Jurusan di FIK",
+        "Jurusan di Fakultas Ilmu Keolahragaan",
+        "Apa saja program studi di Fakultas Ilmu Keolahragaan?",
+        "Apa saja program studi di FIK",
+        "Program studi di FIK",
+        "Program studi di Fakultas Ilmu Keolahragaan",
+        "fik",
+        "fakultas ilmu keolahragaan"
+      ],
+      "responses": [
+        "Fakultas Ilmu Keolahragaan (FIK) terdiri dari enam jurusan yang seluruhnya adalah program S1. Sama seperti fakultas lain, jurusan di FIK juga mencakup rumpun ilmu kependidikan maupun nonkependidikan. Jurusan tersebut adalah : </br>1) Gizi (S1) </br>2) Pendidikan Jasmani Sekolah Dasar (S1) </br>3) Kesehatan Masyarakat (S1) </br>4) Pendidikan Kepelatihan Olah Raga (S1) </br>5) Ilmu Keolahragaan (S1) </br>6) Pendidikan Jasmani, Kesehatan dan Rekreasi (S1)."
+      ]
+    },
+    {
+      "tag": "fis_lanesbot",
+      "patterns": [
+        "Apa saja jurusan di Fakultas Ilmu Sosial?",
+        "Apa saja jurusan di FIS?",
+        "Jurusan di FIS?",
+        "FIS",
+        "Fakultas Ilmu Sosial",
+        "Jurusan di Fakultas Ilmu Sosial?",
+        "Apa saja program studi di Fakultas Ilmu Sosial?",
+        "Apa saja program studi di FIS?",
+        "Program studi di FIS?",
+        "Program studi di Fakultas Ilmu Sosial?"
+      ],
+      "responses": [
+        "Fakultas Ilmu Sosial (FIS) menaungi sembilan jurusan, di mana salah satunya berjenjang D3 dan delapan jurusan lainnya adalah program S1.Sebanyak delapan program studi S1 di FIS juga mencakup rumpun ilmu kependidikan maupun nonkependidikan. Jurusan tersebut adalah : </br>1) Pendidikan IPS (S1) </br>2) Ilmu Politik (S1) </br>3) Pendidikan Sosiologi & Antropologi (S1) </br>4) Pendidikan PKn (S1) </br>5) Survey dan Pemetaan Wilayah (D3) </br>6) Geografi (S1) </br>7) Pendidikan Geografi (S1) </br>8) Ilmu Sejarah (S1) </br>9) Pendidikan Sejarah (S1)."
+      ]
+    },
+    {
+      "tag": "fe_lanesbot",
+      "patterns": [
+        "Apa saja jurusan di Fakultas Ekonomi?",
+        "Apa saja jurusan di FE?",
+        "Jurusan di FE?",
+        "fe",
+        "fakultas ekonomi",
+        "Jurusan di Fakultas Ekonomi?",
+        "Apa saja program studi di Fakultas Ekonomi?",
+        "Apa saja program studi di FE?",
+        "Program studi di FE?",
+        "Program studi di Fakultas Ekonomi?"
+      ],
+      "responses": [
+        "Fakultas Ekonomi (FE) memiliki satu program studi vokasi dan enam jurusan berjenjang sarjana. Jurusan tersebut adalah </br>1) Ekonomi Pembangunan (S1) </br>2) Manajemen Perkantoran (D3) </br>3) Manajemen (S1) </br>4) Akuntansi (D3) </br>5) Akuntansi (S1) </br>6) Pendidikan Ekonomi Administrasi Perkantoran (S1) </br>7) Pendidikan Ekonomi Koperasi (S1) </br>8) Pendidikan Ekonomi Akuntansi (S1)."
+      ]
+    },
+    {
+      "tag": "fmipa_lanesbot",
+      "patterns": [
+        "Apa saja jurusan di Fakultas Matematika dan IPA?",
+        "Apa saja jurusan di FMIPA?",
+        "Jurusan di FMIPA?",
+        "Jurusan di Fakultas Matematika dan IPA?",
+        "Apa saja program studi di Fakultas Matematika dan IPA?",
+        "Apa saja program studi di FMIPA?",
+        "Program studi di FMIPA?",
+        "Program studi di Fakultas Matematika dan IPA?"
+      ],
+      "responses": [
+        "Fakultas Matematika dan IPA (FMIPA) memiliki satu program studi vokasi dan 13 jurusan berjenjang sarjana. Jurusan tersebut adalah </br>1) Ilmu Lingkungan (S1) </br>2) Sistem Informasi (S1) </br>3) Farmasi (S1) </br>4) Teknik Informatika (S1) </br>5) Pendidikan IPA (S1) </br>6) Biologi (S1) </br>7) Pendidikan Biologi (S1) </br>8) Kimia (S1) </br>9) Pendidikan Kimia (S1) </br>10) Fisika (S1) </br>11) Pendidikan Fisika (S1) </br>12) Statistika Terapan dan Komputasi (D3) </br>13) Matematika (S1) </br>14) Pendidikan Matematika (S1)."
+      ]
+    },
+    {
+      "tag": "pascasarjana_lanesbot",
+      "patterns": [
+        "Apa saja jurusan di Pascasarjana?",
+        "Jurusan di Pascasarjana?",
+        "Program studi di Pascasarjana?",
+        "Apa saja program studi di Pascasarjana?"
+      ],
+      "responses": [
+        "Pascasarjana memiliki 13 program studi berjenjang S2 dan 3 program studi berjenjang S3. Jurusan tersebut adalah </br>1) Pendidikan Bahasa (S3) </br>2) Pendidikan Olahraga (S3) </br>3) Manajemen Kependidikan (S3) </br>4) Penelitian dan Evaluasi Pendidikan (S2) </br>5) Kurikulum dan Teknologi Pembelajaran (S2) </br>6) Pendidikan Seni (S2) </br>7) Pendidikan Dasar (S2) </br>8) Pendidikan Olahraga (S2) </br>9) Pendidikan Matematika (S2) </br>10) Pendidikan IPA (S2) </br>11) Pendidikan IPS (S2) </br>12) Pendidikan Bahasa Inggris (S2) </br>13) Pendidikan Bahasa Indonesia (S2) </br>14) Bimbingan dan Konseling (S2) </br>15) Manajemen Pendidikan (S2) </br>16) Pendidikan Geografi (S2)."
+      ]
+    },
+    {
+      "tag": "fip_info",
+      "patterns": [
+        "Website program studi FIP",
+        "Website program studi Fakultas Ilmu Pendidikan",
+        "Website jurusan FIP",
+        "Website jurusan Fakultas Ilmu Pendidikan",
+        "fip"
+      ],
+      "responses": [
+        "Informasi lebih lanjut dapat di akses melalui website berikut : </br></br>Pendidikan Luar Sekolah (S1) : https://unnes.ac.id/prodi/pendidikan-luar-sekolah-s1. </br>Teknologi Pendidikan (S1) : https://unnes.ac.id/prodi/teknologi-pendidikan-s1. </br>Pendidikan Guru PAUD (S1) : https://unnes.ac.id/prodi/pendidikan-guru-paud-s1. </br>Pendidikan Guru Sekolah Dasar (S1) : https://unnes.ac.id/prodi/pendidikan-guru-sekolah-dasar-s1. </br>Psikologi (S1) : https://unnes.ac.id/prodi/psikologi-s1. </br>Bimbingan dan Konseling (S1) : https://unnes.ac.id/prodi/bimbingan-dan-konseling-s1."
+      ]
+    },
+    {
+      "tag": "ft_info",
+      "patterns": [
+        "Website program studi FT",
+        "Website program studi Fakultas Teknik",
+        "Website jurusan FT",
+        "Website jurusan Fakultas Teknik",
+        "ft"
+      ],
+      "responses": [
+        "Informasi lebih lanjut dapat di akses melalui website berikut : </br></br>Pendidikan Kesejahteraan Keluarga (S1) : https://unnes.ac.id/prodi/pkk. </br>Pendidikan Tata Boga (S1) : https://unnes.ac.id/prodi/pendidikan-tata-boga-s1. </br>Pendidikan Teknik Otomotif (S1) : https://unnes.ac.id/prodi/pendidikan-teknik-otomotif. </br>Teknik Kimia (S1) : https://unnes.ac.id/prodi/teknik-kimia-s1. </br>Pendidikan Tata Kecantikan (S1) : https://unnes.ac.id/prodi/pendidikan-kesejahteraan-keluarga-tata-kecantikan-s1. </br>Pendidikan Tata Busana (S1) : https://unnes.ac.id/prodi/pendidikan-tata-busana-s1. </br>Teknik Elektro (S1) : https://unnes.ac.id/prodi/teknik-elektro-s1. </br>Pendidikan Teknik Informatika dan Komputer (S1) : https://unnes.ac.id/prodi/pendidikan-teknik-informatika-dan-komputer-s1. </br>Pendidikan Teknik Elektro (S1) : https://unnes.ac.id/prodi/pendidikan-teknik-elektro-s1. </br>Teknik Mesin (S1) : https://unnes.ac.id/prodi/teknik-mesin-s1. </br>Pendidikan Teknik Mesin (S1) : https://unnes.ac.id/prodi/pendidikan-teknik-mesin-s1." 
+      ]
+    },
+    {
+      "tag": "fbs_info",
+      "patterns": [
+        "Website program studi FBS",
+        "Website program studi Fakultas Bahasa & Seni",
+        "Website jurusan FBS",
+        "fbs",
+        "Website jurusan Fakultas Bahasa & Seni"
+      ],
+      "responses": [
+        "Informasi lebih lanjut dapat di akses melalui website berikut : </br></br>Pendidikan Bahasa Mandarin (S1) :  https://unnes.ac.id/prodi/pendidikan-bahasa-mandarin-s1. </br>Pendidikan Bahasa Inggris (S1) : https://unnes.ac.id/prodi/pendidikan-bahasa-inggris-s1-2. </br>Sastra Inggris (S1) : https://unnes.ac.id/prodi/sastra-inggris-s1. </br>Pendidikan Seni Musik (S1) : https://unnes.ac.id/prodi/pendidikan-seni-musik-s1. </br>Pendidikan Seni Tari (S1) : https://unnes.ac.id/prodi/pendidikan-seni-tari-s1. </br>Desain Komunikasi Visual (D3) : https://unnes.ac.id/prodi/desain-komunikasi-visual-d3. </br>Seni Rupa (S1) : https://unnes.ac.id/prodi/seni-rupa-s1. </br>Pendidikan Seni Rupa (S1) : https://unnes.ac.id/prodi/pendidikan-seni-rupa-s1. </br>Pendidikan Bahasa Jepang (S1) : https://unnes.ac.id/prodi/pendidikan-bahasa-jepang-s1. </br>Sastra Prancis (S1) : https://unnes.ac.id/prodi/sastra-prancis-s1. </br>Pendidikan Bahasa Arab (S1) : https://unnes.ac.id/prodi/pendidikan-bahasa-arab-s1."
+      ]
+    },
+    {
+      "tag": "fik_info",
+      "patterns": [
+        "Website program studi FIK",
+        "Website program studi Fakultas Ilmu Keolahragaan",
+        "Website jurusan FIK",
+        "Website jurusan Fakultas Ilmu Keolahragaan",
+        "fik"
+      ],
+      "responses": [
+        "Informasi lebih lanjut dapat di akses melalui website berikut : </br></br>Gizi (S1) : https://unnes.ac.id/prodi/gizi-s1. </br>Pendidikan Jasmani Sekolah Dasar (S1) : https://unnes.ac.id/prodi/pendidikan-jasmani-sekolah-dasar-s1. </br>Kesehatan Masyarakat (S1) : https://unnes.ac.id/prodi/kesehatan-masyarakat-s1. </br>Pendidikan Kepelatihan Olah Raga (S1) : https://unnes.ac.id/prodi/pendidikan-kepelatihan-olah-raga-s1. </br>Ilmu Keolahragaan (S1) : https://unnes.ac.id/prodi/ilmu-keolahragaan-s1. </br>Pendidikan Jasmani, Kesehatan dan Rekreasi (S1) : https://unnes.ac.id/prodi/pendidikan-jasmani-kesehatan-dan-rekreasi-s1."
+      ]
+    },
+    {
+      "tag": "fis_info",
+      "patterns": [
+        "Website program studi FIS",
+        "Website program studi Fakultas Ilmu Sosial",
+        "Website jurusan FIS",
+        "Website jurusan Fakultas Ilmu Sosial",
+        "fis"
+      ],
+      "responses": [
+        "Informasi lebih lanjut dapat di akses melalui website berikut : </br></br>Pendidikan IPS (S1) : https://unnes.ac.id/prodi/pendidikan-ips-s1. </br>Ilmu Politik (S1) : https://unnes.ac.id/prodi/ilmu-politik-s1. </br>Pendidikan Sosiologi & Antropologi (S1) : https://unnes.ac.id/prodi/pendidikan-sosiologi-dan-antropologi-s1. </br>Pendidikan PKn (S1) : https://unnes.ac.id/prodi/pendidikan-pancasila-dan-kewarganegaraan-s1. </br>Survey dan Pemetaan Wilayah (D3) : https://unnes.ac.id/prodi/survey-dan-pemetaan-wilayah-d3. </br>Geografi (S1) : https://unnes.ac.id/prodi/geografi-s1. </br>Pendidikan Geografi (S1) : https://unnes.ac.id/prodi/pendidikan-geografi-s1. </br>Ilmu Sejarah (S1) : https://unnes.ac.id/prodi/ilmu-sejarah-s1. </br>Pendidikan Sejarah (S1) : https://unnes.ac.id/prodi/pendidikan-sejarah-s1."
+      ]
+    },
+    {
+      "tag": "fe_info",
+      "patterns": [
+        "Website program studi FE",
+        "Website program studi Fakultas Ekonomi",
+        "Website jurusan FE",
+        "Website jurusan Fakultas Ekonomi",
+        "Fe"
+      ],
+      "responses": [
+        "Informasi lebih lanjut dapat di akses melalui website berikut : </br></br>Ekonomi Pembangunan (S1) : https://unnes.ac.id/prodi/ekonomi-pembangunan-s1. </br>Manajemen Perkantoran (D3) : https://unnes.ac.id/prodi/manajemen-perkantoran-d3. </br>Manajemen (S1) : https://unnes.ac.id/prodi/manajemen-s1. </br>Akuntansi (D3) : https://unnes.ac.id/prodi/akuntansi-d3. </br>Akuntansi (S1) : https://unnes.ac.id/prodi/akuntansi-s1. </br>Pendidikan Ekonomi Administrasi Perkantoran (S1) : https://unnes.ac.id/prodi/pendidikan-ekonomi-administrasi-perkantoran-s1. </br>Pendidikan Ekonomi Koperasi (S1) : https://unnes.ac.id/prodi/pendidikan-ekonomi-koperasi-s1. </br>Pendidikan Ekonomi Akuntansi (S1) : https://unnes.ac.id/prodi/pendidikan-ekonomi-akuntansi-s1."
+      ]
+    },
+    {
+      "tag": "fmipa_info",
+      "patterns": [
+        "Website program studi FMIPA",
+        "Website program studi Fakultas Matematika dan IPA",
+        "Website jurusan FMIPA",
+        "Website jurusan Fakultas Matematika dan IPA",
+        "fmipa"
+      ],
+      "responses": [
+        "Informasi lebih lanjut dapat di akses melalui website berikut : </br></br>Ilmu Lingkungan (S1) : https://unnes.ac.id/prodi/ilmu-lingkungan-s1. </br>Sistem Informasi (S1) : https://unnes.ac.id/prodi/sistem-informasi-s1. </br>Farmasi (S1) : https://unnes.ac.id/prodi/farmasi-s1. </br>Teknik Informatika (S1) : https://unnes.ac.id/prodi/teknik-informatika-s1. </br>Pendidikan IPA (S1) : https://unnes.ac.id/prodi/pendidikan-ilmu-pengetahuan-alam-s1. </br>Biologi (S1) : https://unnes.ac.id/prodi/biologi-s1. </br>Pendidikan Biologi (S1) : https://unnes.ac.id/prodi/pendidikan-biologi-s1. </br>Kimia (S1) : https://unnes.ac.id/prodi/kimia-s1. </br>Pendidikan Kimia (S1) : https://unnes.ac.id/prodi/pendidikan-kimia-s1. </br>Fisika (S1) : https://unnes.ac.id/prodi/fisika-s1. </br>Pendidikan Fisika (S1) : https://unnes.ac.id/prodi/pendidikan-fisika-s1. </br>Statistika Terapan dan Komputasi (D3) : https://unnes.ac.id/prodi/statistika-terapan-dan-komputasi-d3. </br>Matematika (S1) : https://unnes.ac.id/prodi/matematika-s1."
+      ]
+    },
+    {
+      "tag": "pascasarjana_info",
+      "patterns": [
+        "Website program studi Pascasarjana",
+        "Website program studi Pascasarjana",
+        "Website jurusan Pascasarjana",
+        "Website jurusan Pascasarjana",
+        "pascasarjana"
+      ],
+      "responses": [
+        "Informasi lebih lanjut dapat di akses melalui website berikut : </br></br>Pendidikan Bahasa (S3) : https://unnes.ac.id/prodi/pendidikan-bahasa-s3. </br>Pendidikan Olahraga (S3) : https://unnes.ac.id/prodi/pendidikan-olahraga-s3. </br>Manajemen Kependidikan (S3) : https://unnes.ac.id/prodi/manajemen-kependidikan-s3. </br>Penelitian dan Evaluasi Pendidikan (S2) : https://unnes.ac.id/prodi/penelitian-dan-evaluasi-pendidikan-s2. </br>Kurikulum dan Teknologi Pembelajaran (S2) : https://unnes.ac.id/prodi/kurikulum-dan-teknologi-pembelajaran-s2. </br>Pendidikan Seni (S2) : https://unnes.ac.id/prodi/pendidikan-seni-s2. </br>Pendidikan Dasar (S2) : https://unnes.ac.id/prodi/pendidikan-dasar-s2. </br>Pendidikan Olahraga (S2) : https://unnes.ac.id/prodi/pendidikan-olahraga-s2. </br>Pendidikan Matematika (S2) : https://unnes.ac.id/prodi/pendidikan-matematika-s2. </br>Pendidikan IPA (S2) : https://unnes.ac.id/prodi/pendidikan-ipa-s2. </br>Pendidikan IPS (S2) : https://unnes.ac.id/prodi/pendidikan-ips-s2." 
+      ]
+    },
+    {
+      "tag": "fh_info",
+      "patterns": [
+        "Website program studi Fakultas Hukum",
+        "Website program studi FH",
+        "Website jurusan Fakultas Hukum",
+        "Website jurusan FH",
+        "fh"
+      ],
+      "responses": [
+        "Informasi lebih lanjut dapat di akses melalui website berikut : https://unnes.ac.id/prodi/ilmu-hukum-s1."
+      ]
+    },
+    {
+      "tag": "ft_akreditasi",
+      "patterns": [
+        "Akreditasi jurusan di Fakultas Teknik",
+        "Akreditasi jurusan di FT",
+        "Akreditasi di FT",
+        "Akreditasi FT",
+        "Akreditasi Fakultas Teknik",
+        "Akreditasi di Fakultas Teknik",
+        "Akreditasi Program studi di FT"
+      ],
+      "responses": [
+        "Pendidikan Kesejahteraan Keluarga (S1) akreditasi A </br>Pendidikan Tata Boga (S1) akreditasi B </br>Pendidikan Teknik Otomotif (S1) akreditasi B </br>Teknik Kimia (S1) akreditasi B </br>Pendidikan Tata Kecantikan (S1) akreditasi A </br>Pendidikan Tata Busana (S1) akreditasi B </br>Teknik Elektro (S1) akreditasi A </br>Pendidikan Teknik Informatika dan Komputer (S1) akreditasi A </br>Pendidikan Teknik Elektro (S1) akreditasi A </br>Teknik Mesin (S1) akreditasi B </br>Pendidikan Teknik Mesin (S1) akreditasi A </br>Teknik Sipil (S1) akreditasi B </br>Teknik Arsitektur (S1) akreditasi B </br>Pendidikan Teknik Bangunan (S1) akreditasi A."
+      ]
+    },
+    {
+      "tag": "fbs_akreditasi",
+      "patterns": [
+        "Akreditasi jurusan di Fakultas Bahasa & Seni",
+        "Akreditasi jurusan di FBS",
+        "Akreditasi FBS",
+        "Akreditasi Fakultas Bahasa & Seni",
+        "Akreditasi di Fakultas Bahasa & Seni",
+        "Akreditasi Program studi di FBS"
+      ],
+      "responses": [
+        "Pendidikan Bahasa Mandarin (S1) akreditasi A </br>Pendidikan Bahasa Inggris (S1) akreditasi A </br>Sastra Inggris (S1) akreditasi A </br>Pendidikan Seni Musik (S1) akreditasi A </br>Pendidikan Seni Tari (S1) akreditasi A </br>Desain Komunikasi Visual (D3) akreditasi A </br>Seni Rupa (S1) akreditasi A </br>Pendidikan Seni Rupa (S1) akreditasi A </br>Pendidikan Bahasa Jepang (S1) akreditasi A </br>Sastra Prancis (S1) akreditasi A </br>Pendidikan Bahasa Arab (S1) akreditasi A </br>Pendidikan Bahasa Prancis (S1) akreditasi A </br>Sastra Jawa (S1) akreditasi A </br>Pendidikan Bahasa Jawa (S1) akreditasi A </br>Sastra Indonesia (S1) akreditasi A </br>Pendidikan Bahasa dan Sastra Indonesia (S1) akreditasi A."
+      ]
+    },
+    {
+      "tag": "fik_akreditasi",
+      "patterns": [
+        "Akreditasi jurusan di Fakultas Ilmu Keolahragaan",
+        "Akreditasi jurusan di FIK",
+        "Akreditasi FIK",
+        "Akreditasi Fakultas Ilmu Keolahragaan",
+        "Akreditasi di Fakultas Ilmu Keolahragaan",
+        "Akreditasi Program studi di FIK"
+      ],
+      "responses": [
+        "Gizi (S1) akreditasi B </br>Pendidikan Jasmani Sekolah Dasar (S1) akreditasi B </br>Kesehatan Masyarakat (S1) akreditasi B </br>Pendidikan Kepelatihan Olah Raga (S1) akreditasi A </br>Ilmu Keolahragaan (S1) akreditasi A </br>Pendidikan Jasmani, Kesehatan dan Rekreasi (S1) akreditasi A."
+      ]
+    },
+    {
+      "tag": "fis_akreditasi",
+      "patterns": [
+        "Akreditasi jurusan di Fakultas Ilmu Sosial",
+        "Akreditasi jurusan di FIS",
+        "Akreditasi FIS?",
+        "Akreditasi Fakultas Ilmu Sosial",
+        "Akreditasi di Fakultas Ilmu Sosial",
+        "Akreditasi Program studi di FIS"
+      ],
+      "responses": [
+        "Pendidikan IPS (S1) akreditasi B </br>Ilmu Politik (S1) akreditasi B </br>Pendidikan Sosiologi & Antropologi (S1) akreditasi A </br>Pendidikan PKn (S1) akreditasi A </br>Survey dan Pemetaan Wilayah (D3) akreditasi B </br>Geografi (S1) akreditasi A </br>Pendidikan Geografi (S1) akreditasi A </br>Ilmu Sejarah (S1) akreditasi A </br>Pendidikan Sejarah (S1) akreditasi A."
+      ]
+    },
+    {
+      "tag": "fe_akreditasi",
+      "patterns": [
+        "Akreditasi jurusan di Fakultas Ekonomi?",
+        "Akreditasi jurusan di FE?",
+        "Akreditasi FE",
+        "Akreditasi Fakultas Ekonomi",
+        "Akreditasi di Fakultas Ekonomi",
+        "Akreditasi Program studi di FE"
+      ],
+      "responses": [
+        "Ekonomi Pembangunan (S1) akreditasi A </br>Manajemen Perkantoran (D3) akreditasi B </br>Manajemen (S1) akreditasi A </br>Akuntansi (D3) akreditasi A </br>Akuntansi (S1) akreditasi A </br>Pendidikan Ekonomi Administrasi Perkantoran (S1) akreditasi A </br>Pendidikan Ekonomi Koperasi (S1) akreditasi B </br>Pendidikan Ekonomi Akuntansi (S1) akreditasi A."
+      ]
+    },
+    {
+      "tag": "fmipa_akreditasi",
+      "patterns": [
+        "Akreditasi jurusan di Fakultas Matematika dan IPA",
+        "Akreditasi jurusan di FMIPA",
+        "Akreditasi FMIPA",
+        "fmipa",
+        "Akreditasi Fakultas Matematika dan IPA?",
+        "Akreditasi di Fakultas Matematika dan IPA?",
+        "Akreditasi Program studi di FMIPA"
+      ],
+      "responses": [
+        "Ilmu Lingkungan (S1) akreditasi B </br>Sistem Informasi (S1) akreditasi B </br>Farmasi (S1) akreditasi B </br>Teknik Informatika (S1) akreditasi B </br>Pendidikan IPA (S1) akreditasi A </br>Biologi (S1) akreditasi A </br>Pendidikan Biologi (S1) akreditasi A </br>Kimia (S1) akreditasi A </br>Pendidikan Kimia (S1) akreditasi A </br></br>Fisika (S1) akreditasi A </br>Pendidikan Fisika (S1) akreditasi A </br>Statistika Terapan dan Komputasi (D3) akreditasi A </br>Matematika (S1) akreditasi A </br>Pendidikan Matematika (S1) akreditasi A."
+      ]
+    },
+	{
+      "tag": "pascasarjana_akreditasi",
+      "patterns": [
+        "Akreditasi jurusan di Pascasarjana?",
+        "Akreditasi di Pascasarjana",
+        "pascasarjana",
+        "Akreditasi program studi di Pascasarjana",
+        "Akreditasi pascasarjana?"
+      ],
+      "responses": [
+        "Pendidikan Bahasa (S3) akreditasi A </br>Pendidikan Olahraga (S3) akreditasi A </br>Manajemen Kependidikan (S3) akreditasi C </br>Penelitian dan Evaluasi Pendidikan (S2) akreditasi A </br>Kurikulum dan Teknologi Pembelajaran (S2) akreditasi B </br>Pendidikan Seni (S2) akreditasi A </br>Pendidikan Dasar (S2) akreditasi A </br>Pendidikan Olahraga (S2) akreditasi A </br>Pendidikan Matematika (S2) akreditasi B </br>Pendidikan IPA (S2) akreditasi C </br>Pendidikan IPS (S2) akreditasi C </br>Pendidikan Bahasa Inggris (S2) akreditasi C </br>Pendidikan Bahasa Indonesia (S2) akreditasi A </br>Bimbingan dan Konseling (S2) akreditasi A </br>Manajemen Pendidikan (S2) akreditasi C </br>Pendidikan Geografi (S2) akreditasi B."
+      ]
+    },
+    {
+      "tag": "fh_lanesbot",
+      "patterns": [
+        "Apa saja jurusan di Fakultas Hukum?",
+        "Apa saja jurusan di FH?",
+        "Jurusan di FH",
+        "fh",
+        "fakultas hukum",
+        "Jurusan di Fakultas Hukum",
+        "Apa saja program studi di Fakultas Hukum?",
+        "Apa saja program studi di FH",
+        "Program studi di FH",
+        "Program studi di Fakultas Hukum?"
+      ],
+      "responses": [
+        "Fakultas Hukum (FH) hanya memiliki satu program studi berjenjang S1, yaitu Ilmu Hukum (S1)."
+      ]
+    }
+  ]
+}

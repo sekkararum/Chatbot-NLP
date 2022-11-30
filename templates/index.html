@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/frame1.css') }}">
+    <title>Lanes Assistant</title>
+</head>
+<body>
+    <div class="frame-1 screen">
+        <div class="overlap-group1">
+            <div class="rectangle-9"></div>
+            <div class="rectangle-10"></div>
+            <div class="polygon-2"><svg width="182" height="115" viewBox="0 0 182 115" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M91 115L0.93335 0.25L181.067 0.25L91 115Z" fill="#24554F"/></svg></div>
+            <div class="polygon-3"><svg width="181" height="115" viewBox="0 0 181 115" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M90.5 0L180.134 114.75L0.866371 114.75L90.5 0Z" fill="#24554F"/></svg></div>                          
+            <div class="lanes-assistant">Lanes Assistant</div>
+        </div>
+
+        <div class="overlap-group2">
+            <div class="ellipse-5"></div>
+            <div class="ellipse-4"></div>
+            <!-- <img class="image-3" src="C:\Users\NILAM\Downloads\Project Akhir\Lanes Asisstant\frame 1\frame 1 2.png" alt="image 3" /> -->
+            <img class="image-3" src={{ url_for('static', filename="images/frame 1 2.png" ) }}>
+            <h1 class="title lora-medium-black-70px">LANES ASSISTANT &</h1>
+            <h1 class="chatting-bot lora-medium-black-70px">CHATTING BOT</h1>
+        </div>
+
+        <div class="flex-row">
+            <!-- <img class="image-3-1" src="C:\Users\NILAM\Downloads\Project Akhir\Lanes Asisstant\frame 1\frame 1.png" alt="image 3" /> -->
+            <img class="image-3-1" src={{ url_for('static', filename="images/frame 1.png" ) }}>
+            <div class="overlap-group">
+                <div class="rectangle-8"></div>
+            </div>
+
+            <form action="/frame2">
+                <div>
+                    <button type="submit" class="button-mulai">Start</button>
+                </div>
+            </form>
+        </div>
+    </div>        
+</body>
+</html>

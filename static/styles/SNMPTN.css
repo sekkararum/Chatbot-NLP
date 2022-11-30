@@ -1,0 +1,373 @@
+@import url("https://fonts.googleapis.com/css?family=Lora:400,500|Public+Sans:400,500");
+
+@font-face {
+    font-family: "Lucida Calligraphy-Italic"; 
+    font-style: italic;
+    font-weight: 460;
+    src:
+    url("https://fonts.animaapp.com/LucidaCalligraphy-Italic") 
+    format("truetype");
+}
+
+.frame-snmptn {
+    align-items: flex-start;
+    background-color: #4a9d93a1; 
+    border: 1px none;
+    display: flex; 
+    flex-direction: column;
+    height: 697px; 
+    width: 1520px;
+} 
+
+.hidden,
+.hidden * {
+    pointer-events: none;
+    visibility: hidden;
+}
+
+.overlap-groupl {
+    height: 115px;
+    margin-top: 1px;
+    position: relative;
+    width: 1325px;
+}
+    
+.rectangle-10 {
+    background-color: #24554f;
+    border: 1px none;
+    height: 114px;
+    left: 860px;
+    position: absolute;
+    top: 9px;
+    width: 250px;
+}
+    
+.polygon-3 {
+    height: 115px;
+    left: 770px;
+    position: absolute;
+    width: 179px;
+}
+
+.snmptn {
+    color:#f5f5f5;
+    text-align:left;
+    vertical-align:text-top;
+    font-size:35px;
+    font-family:Lucida Calligraphy;
+    left:709px;
+    top:40px;
+    width:527px;
+    height:64px;
+    position:absolute;
+    letter-spacing:-0.800000011920929px;
+    line-height:45px;
+}
+
+.polygon-2 {
+    height: 115px;
+    left: 1020px;
+    position: absolute;
+    top: 9px;
+    width: 180px;
+}
+
+.rectangle-9 {
+    background-color: #24554fcc;
+    border: 1px none;
+    height: 114px;
+    left: 8px;
+    position: absolute;
+    top: 9px;
+    width: 892px;
+}
+
+.title {
+    left: 100px;
+    letter-spacing: 5px;
+    position: absolute;
+    top: 250px;
+    font-size: 40px;
+}
+
+ .rectangle92 {
+    background-color:rgba(36, 67, 85, 0.7599999904632568);
+    height:430px;
+    width:420px;
+    border-radius:36px;
+    top:180px;
+    right:210px;
+    position:absolute;
+ }
+ .rectangle11 {
+    background-color:rgba(36, 85, 79, 0.7599999904632568);
+    height:430px;
+    width:692px;
+    border-radius:36px;
+    top:180px;
+    left:214px;
+    position:absolute;
+ }
+
+ .arrow3 {
+    width:49.999996185302734px;
+    left:10px;
+    top:59px;
+    position:absolute;
+ }
+
+ .text-bin {
+    background-color:rgba(74, 157, 147, 0.699999988079071);
+    height:40px;
+    width:394px;
+    border:0;
+    border-radius:36px;
+    top:200px;
+    left:458px;
+    position:absolute;
+ }
+
+ .text-bing {
+    background-color:rgba(74, 157, 147, 0.699999988079071);
+    height:40px;
+    width:394px;
+    border:0;
+    border-radius:36px;
+    top:250px;
+    left:458px;
+    position:absolute;
+ }
+
+ .text-bio {
+    background-color:rgba(74, 157, 147, 0.699999988079071);
+    height:40px;
+    width:394px;
+    border:0;
+    border-radius:36px;
+    top:300px;
+    left:458px;
+    position:absolute;
+ }
+
+ .text-fis {
+    background-color:rgba(74, 157, 147, 0.699999988079071);
+    height:40px;
+    width:394px;
+    border:0;
+    border-radius:36px;
+    top:350px;
+    left:458px;
+    position:absolute;
+ }
+
+ .text-kim {
+    background-color:rgba(74, 157, 147, 0.699999988079071);
+    height:40px;
+    width:394px;
+    border:0;
+    border-radius:36px;
+    top:400px;
+    left:458px;
+    position:absolute;
+ }
+
+ .text-mat {
+    background-color:rgba(74, 157, 147, 0.699999988079071);
+    height:40px;
+    width:394px;
+    border:0;
+    border-radius:36px;
+    top:450px;
+    left:458px;
+    position:absolute;
+ }
+
+ .pilih-prodi{
+    background-color:rgba(74, 157, 147, 0.699999988079071);
+    height:40px;
+    width:394px;
+    border-radius:36px;
+    top:500px;
+    left:458px;
+    border:0;
+    color: white;
+    position:absolute;
+ }
+
+ .input_bin {
+    color:#f5f5f5;
+    text-align:center;
+    vertical-align:text-middle;
+    font-size:20px;
+    font-family:Public Sans;
+    left:230px;
+    top:200px;
+    width:168px;
+    height:52px;
+    position:absolute;
+    letter-spacing:-0.800000011920929px;
+    line-height:45px;
+ }
+
+ .input_bing {
+    color:#f5f5f5;
+    text-align:center;
+    vertical-align:text-middle;
+    font-size:20px;
+    font-family:Public Sans;
+    left:218px;
+    top:250px;
+    width:168px;
+    height:52px;
+    position:absolute;
+    letter-spacing:-0.800000011920929px;
+    line-height:45px;
+ }
+
+ .input_bio {
+    color:#f5f5f5;
+    text-align:center;
+    vertical-align:text-middle;
+    font-size:20px;
+    font-family:Public Sans;
+    left:185px;
+    top:300px;
+    width:168px;
+    height:52px;
+    position:absolute;
+    letter-spacing:-0.800000011920929px;
+    line-height:45px;
+ }
+
+ .input_fis {
+    color:#f5f5f5;
+    text-align:center;
+    vertical-align:text-middle;
+    font-size:20px;
+    font-family:Public Sans;
+    left:181px;
+    top:350px;
+    width:168px;
+    height:52px;
+    position:absolute;
+    letter-spacing:-0.800000011920929px;
+    line-height:45px;
+ }
+
+ .input_kim {
+    color:#f5f5f5;
+    text-align:center;
+    vertical-align:text-middle;
+    font-size:20px;
+    font-family:Public Sans;
+    left:182px;
+    top:400px;
+    width:168px;
+    height:52px;
+    position:absolute;
+    letter-spacing:-0.800000011920929px;
+    line-height:45px;
+ }
+
+ .input_mat {
+    color:#f5f5f5;
+    text-align:center;
+    vertical-align:text-middle;
+    font-size:20px;
+    font-family:Public Sans;
+    left:208px;
+    top:450px;
+    width:168px;
+    height:52px;
+    position:absolute;
+    letter-spacing:-0.800000011920929px;
+    line-height:45px;
+ }
+
+ .hasilprediksi {
+    color:#f5f5f5;
+    text-align:center;
+    vertical-align:text-middle;
+    font-size:20px;
+    font-family:Public Sans;
+    left:877px;
+    top:200px;
+    width:463px;
+    height:53px;
+    position:absolute;
+    letter-spacing:1px;
+    line-height:45px;
+ }
+
+ .hasilprediksi-1 {
+    color:#f5f5f5;
+    text-align:center;
+    vertical-align:text-middle;
+    font-size:20px;
+    font-family:Public Sans;
+    left:883px;
+    top:250px;
+    width:463px;
+    height:53px;
+    position:absolute;
+    letter-spacing:1px;
+    line-height:45px;
+ }
+
+ .programstudipilihan {
+    color:#f5f5f5;
+    text-align:center;
+    vertical-align:text-middle;
+    font-size:20px;
+    font-family:Public Sans;
+    left:234px;
+    top:500px;
+    width:200px;
+    height:52px;
+    position:absolute;
+    letter-spacing:-0.800000011920929px;
+    line-height:45px;
+ }
+
+ .prediksi2 {
+    color:#f5f5f5;
+    text-align:center;
+    vertical-align:text-middle;
+    font-size:32px;
+    font-family:Public Sans;
+    left:545px;
+    top:621px;
+    width:243px;
+    height:52px;
+    position:absolute;
+    letter-spacing:-0.800000011920929px;
+    line-height:45px;
+ }
+ 
+ .button-snmptn{
+    width: 110px;
+    height: 35px;
+    text-align: center;
+    background-color: #24554F;
+    border-radius: 20px;
+    padding: 8px 0;
+    border:0px;
+    color: white;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    position: absolute;
+    left: 740px;
+    top: 560px;
+}
+
+.button-kembali{
+    width: 65px;
+    height: 33px;
+    text-align: center;
+    background-color:rgba(74, 157, 147, 0.699999988079071);
+    border:0px;
+    position: absolute;
+    left: 20px;
+    top: 50px;
+    border-radius: 20px;
+}

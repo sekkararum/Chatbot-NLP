@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/frame2.css') }}">
+    <title>Lanes Assistant</title>
+</head>
+<body>
+    <div class="frame-1 screen">
+        <div class="overlap-group1">
+            <div class="rectangle-9"></div>
+            <form action="/">
+                <div>
+                    <button type="submit" class="button-kembali"><svg width="53" height="23" viewBox="0 0 53 23" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.935495 10.1298C0.351899 10.7178 0.355442 11.6675 0.943407 12.2511L10.5249 21.7614C11.1129 22.345 12.0626 22.3414 12.6462 21.7535C13.2298 21.1655 13.2262 20.2157 12.6383 19.6321L4.12141 11.1786L12.575 2.6617C13.1586 2.07374 13.155 1.124 12.5671 0.540398C11.9791 -0.0432003 11.0294 -0.039658 10.4458 0.54831L0.935495 10.1298ZM51.9942 9.50001L1.99451 9.6865L2.0057 12.6865L52.0054 12.5L51.9942 9.50001Z" fill="#FAFAFA"/></svg></button></button>
+                </div>
+            </form>
+            <div class="rectangle-10"></div>
+            <div class="polygon-2"><svg width="182" height="115" viewBox="0 0 182 115" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M91 115L0.93335 0.25L181.067 0.25L91 115Z" fill="#24554F"/></svg></div>
+            <div class="polygon-3"><svg width="181" height="115" viewBox="0 0 181 115" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M90.5 0L180.134 114.75L0.866371 114.75L90.5 0Z" fill="#24554F"/></svg></div>                          
+        </div>
+        <div class="overlap-group2">
+            <!-- <img class="image-3" src="C:\Users\NILAM\Downloads\Project Akhir\Lanes Asisstant\frame 1\frame 1 2.png" alt="image 3" /> -->
+            <img class="image-3" src={{ url_for('static', filename="images/frame 1 2.png" ) }}>
+        </div>
+
+            <form action="/frame3">
+                <div>
+                    <button type="submit" class="button-lanjut">Next</button>
+                </div>
+            </form>
+        
+        <div>
+            <div id='lanes' class='lanes'>I will help you find out information about UNNES</div>
+                <div id='lanes-1' class='lanes-1'>Helloo, I'm Lanes Assistant</div>
+                <div id='lanes-2' class='lanes-2'>and help predict your pass into UNNES</div>
+        </div>
+
+        </div>
+    </div>        
+</body>
+</html>

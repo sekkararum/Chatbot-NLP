@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/styles/frame6.css">
+    <title>Lanesbot</title>
+</head>
+
+<body>
+    <div class="frame-sbmptn screen">
+        <div class="overlap-group1">
+            <div class="rectangle-9"></div>
+            <form action="/frame3">
+                <div>
+                    <button type="submit" class="button-kembali"><svg width="53" height="23" viewBox="0 0 53 23" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.935495 10.1298C0.351899 10.7178 0.355442 11.6675 0.943407 12.2511L10.5249 21.7614C11.1129 22.345 12.0626 22.3414 12.6462 21.7535C13.2298 21.1655 13.2262 20.2157 12.6383 19.6321L4.12141 11.1786L12.575 2.6617C13.1586 2.07374 13.155 1.124 12.5671 0.540398C11.9791 -0.0432003 11.0294 -0.039658 10.4458 0.54831L0.935495 10.1298ZM51.9942 9.50001L1.99451 9.6865L2.0057 12.6865L52.0054 12.5L51.9942 9.50001Z" fill="#FAFAFA"/></svg></button></button>
+                </div>
+            </form>
+            <div class="rectangle-10"></div>
+            <div class="polygon-2"><svg width="182" height="115" viewBox="0 0 182 115" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M91 115L0.93335 0.25L181.067 0.25L91 115Z" fill="#24554F"/></svg></div>
+            <div class="polygon-3"><svg width="181" height="115" viewBox="0 0 181 115" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M90.5 0L180.134 114.75L0.866371 114.75L90.5 0Z" fill="#24554F"/></svg></div>                          
+            <div class="sbmptn">Lanesbot</div>   
+        </div>
+
+    <!-- Chatbot Body -->
+    <div class="chatbot-body"></div>
+     <main class="msger-chat">
+      <div class="msg left-msg">
+        <div class="msg-img"></div>
+        <div class="msg-bubble">
+          <div class="msg-info">
+            <div class="msg-info-name">Lanesbot</div>
+            <div style="color: white" class="now">Sekarang</div>
+          </div>
+  
+          <div style="color: white" class="msg-text">
+            👋 Hai! Lanesbot di sini. Mau tau informasi tentang apa nih?
+          </div>
+        </div>
+      </div>
+    </main>
+  
+    <form class="msger-inputarea">
+      <input type="text" class="msger-input" id="textInput" placeholder="Type here...">
+      <button type="submit" class="msger-send-btn"><svg width="46" height="23" viewBox="0 0 46 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M45.2075 12.045C45.7854 11.4506 45.7727 10.501 45.1791 9.92384L35.5065 0.519072C34.9129 -0.0580512 33.9633 -0.0440904 33.3854 0.550255C32.8075 1.1446 32.8202 2.09426 33.4138 2.67139L42.0117 11.0312L33.6409 19.6404C33.063 20.2348 33.0757 21.1844 33.6693 21.7616C34.2628 22.3387 35.2125 22.3247 35.7903 21.7304L45.2075 12.045ZM1.02007 13.134L44.1529 12.4999L44.1127 9.50013L0.979928 10.1342L1.02007 13.134Z" fill="#FAFAFA"/>
+          </svg></button>
+    </form>
+    </div>
+    </div>
+    <!-- Chatbot Body End  -->
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="{{ url_for('static', filename='js/all.js') }}"></script>
+  <script>
+    const msgerForm = get(".msger-inputarea");
+    const msgerInput = get(".msger-input");
+    const msgerChat = get(".msger-chat");
+
+    // Icons made by Freepik from www.flaticon.com
+    const BOT_IMG = "../images/frame\ 1\ 2.png";
+    const PERSON_IMG = "../static/images/avatar.png";
+    const BOT_NAME = "Lanesbot";
+    const PERSON_NAME = "Kamu";
+
+    msgerForm.addEventListener("submit", event => {
+      event.preventDefault();
+
+      const msgText = msgerInput.value;
+      if (!msgText) return;
+
+      appendMessage(PERSON_NAME, PERSON_IMG, "right", msgText);
+      msgerInput.value = "";
+      botResponse(msgText);
+    });
+
+    function appendMessage(name, img, side, text) {
+      //   Simple solution for small apps
+      const msgHTML = `
+      <div class="msg ${side}-msg">
+        <div class="msg-img" style="background-image: url(${img})"></div>
+
+        <div class="msg-bubble">
+          <div class="msg-info">
+            <div class="msg-info-name">${name}</div>
+            <div class="msg-info-time">${formatDate(new Date())}</div>
+          </div>
+
+          <div class="msg-text">${text}</div>
+        </div>
+      </div>
+      `;
+
+      msgerChat.insertAdjacentHTML("beforeend", msgHTML);
+      msgerChat.scrollTop += 500;
+    }
+
+    function botResponse(rawText) {
+      // Bot Response
+      $.get("/get", { msg: rawText }).done(function (data) {
+        console.log(rawText);
+        console.log(data);
+        const msgText = data;
+        appendMessage(BOT_NAME, BOT_IMG, "left", msgText);
+
+      });
+
+    }
+
+    // Utils
+    function get(selector, root = document) {
+      return root.querySelector(selector);
+    }
+
+    function formatDate(date) {
+      const h = "0" + date.getHours();
+      const m = "0" + date.getMinutes();
+
+      return `${h.slice(-2)}:${m.slice(-2)}`;
+    }
+  </script>
+</body>
+
+</html>
+
+    </div>
